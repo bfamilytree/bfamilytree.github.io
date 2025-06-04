@@ -1,0 +1,21 @@
+/* Стилі для кастомних блоків Mermaid */
+.mermaid .redBlock rect {
+  fill: #ff4c4c;
+  stroke: #ff0000;
+  stroke-width: 2px;
+}
+
+.mermaid .blueBlock rect {
+  fill: #4cafff;
+  stroke: #007acc;
+  stroke-width: 2px;
+}
+
+.mermaid .thickEdge path {
+  stroke-width: 3px;
+  stroke: orange;
+}
+
+.mermaid .thickEdge.marker-end {
+  stroke: orange;
+}
